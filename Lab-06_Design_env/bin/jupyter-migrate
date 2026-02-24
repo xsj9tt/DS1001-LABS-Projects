@@ -1,0 +1,6 @@
+#!/workspaces/DS1001-LABS-Projects/Lab-06_Design_env/bin/python3.12
+import sys
+from jupyter_core.migrate import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
